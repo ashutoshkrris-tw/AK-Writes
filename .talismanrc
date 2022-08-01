@@ -10,3 +10,7 @@ fileignoreconfig:
 - filename: package-lock.json
   checksum: 1431294731f79fa000fdd7419081d3f3787455f2a44b6dd0b7ff09208be818af
 version: ""
+fileignoreconfig:
+- filename: src/components/BlogList.js
+  checksum: 39f4d1579583f5cd813de112d31a345eee68ce42718fd1fd43421fe136ab0bd0
+version: ""
