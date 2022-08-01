@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import CreateBlog from "./components/CreateBlog";
 import BlogDetail from "./components/BlogDetail";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/create" element={<CreateBlog />} />
             <Route path="/blogs/:blogId" element={<BlogDetail />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
