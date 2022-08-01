@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import CreateBlog from "./components/Create";
+import CreateBlog from "./components/CreateBlog";
 import BlogDetail from "./components/BlogDetail";
 
 function App() {
